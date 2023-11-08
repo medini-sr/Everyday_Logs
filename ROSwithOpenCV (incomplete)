@@ -1,0 +1,21 @@
+Integrating your camera with ros and open cv
+publisher node takes in an image using open cv and converts it to form that ros can understand and through a topic sends it to a suibscriber node
+subscriber node takes the image and converts it to open cv form and puts on screen\
+Python code of publisher node
+and python code of subscriber node
+Integrating camera reading with ROS and Open cv
+in my taskk 2b I\ll be needing contour detection
+
+
+
+Steps:Connect Camera to the USB Port
+Cheese open it comes with ubuntu then double click on it and check if drivers exist 
+and then type in ls/dev/| grep video
+Install the ROS webcam driver called usb_cam
+use the command sudo apt install ros noetic usb cam i think anyway search it up later
+we can manually instll open cv tools in ros even tho usually ros comes with open cv
+ros install perception so it installs open cv and everything else along with it\
+then source your ros encvgedit ~\bashrc
+then make workspace
+source workspace
+
